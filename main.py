@@ -1,6 +1,7 @@
 from telegram import Update, Bot
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters, CallbackContext
 import random
+import os
 # On cree le bot qui permet de gerer l'api tg
 
 TOKEN = os.environ["BOT_TOKEN"]
